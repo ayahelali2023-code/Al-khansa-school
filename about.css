@@ -1,0 +1,390 @@
+/* RESET */
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* BODY */
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+    background-color: #F7F1E7;
+
+}
+
+
+/* NAVBAR */
+
+.navbar{
+
+    height: 105px;
+
+    background-color: #F7F1E7;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 0 70px;
+
+}
+
+
+/* LOGO SECTION */
+
+.logo-section{
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+
+}
+
+
+/* LOGO */
+
+.logo-section img{
+
+    width: 82px;
+    height: 82px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    border: 3px solid white;
+
+}
+
+
+/* SCHOOL NAME */
+
+.logo-section h1{
+
+    color: #0F2F5F;
+
+    font-size: 34px;
+
+    font-weight: 700;
+
+}
+
+
+/* LINKS */
+
+.nav-links{
+
+    display: flex;
+
+    gap: 38px;
+
+    list-style: none;
+
+}
+
+
+/* LINKS */
+
+.nav-links a{
+
+    text-decoration: none;
+
+    color: #0F2F5F;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+
+}
+
+
+/* HOVER */
+
+.nav-links a:hover{
+
+    color: #C7A86B;
+
+}
+
+
+/* ACTIVE */
+
+.active{
+
+    border-bottom: 2px solid #0F2F5F;
+
+    padding-bottom: 6px;
+
+}
+
+
+/* TITLE */
+
+.about-title{
+
+    text-align: center;
+
+    margin-top: 40px;
+
+}
+
+
+/* TITLE TEXT */
+
+.about-title h2{
+
+    color: #111;
+
+    font-size: 56px;
+
+    margin-bottom: 15px;
+
+}
+
+
+/* LINE */
+
+.line{
+
+    width: 90px;
+    height: 4px;
+
+    background-color: #D4B87A;
+
+    margin: auto;
+
+    border-radius: 30px;
+
+}
+
+
+/* CARDS */
+
+.about-cards{
+
+    display: grid;
+
+    grid-template-columns: repeat(4,1fr);
+
+    gap: 30px;
+
+    padding: 60px 60px 40px;
+
+}
+
+
+/* CARD */
+
+.card{
+
+    background-color: white;
+
+    border-radius: 20px;
+
+    padding: 35px 28px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+
+    transition: 0.4s;
+
+    animation: float 3s ease-in-out infinite;
+
+}
+
+
+/* ANIMATION */
+
+.card:hover{
+
+    transform: translateY(-10px);
+
+}
+
+
+/* FLOAT */
+
+@keyframes float{
+
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-8px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+
+}
+
+
+/* ICON */
+
+.icon{
+
+    width: 75px;
+    height: 75px;
+
+    border-radius: 50%;
+
+    background-color: #0F2F5F;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin: auto;
+
+    margin-bottom: 25px;
+
+}
+
+
+/* ICON */
+
+.icon i{
+
+    font-size: 28px;
+
+}
+
+
+/* CARD TITLE */
+
+.card h3{
+
+    text-align: center;
+
+    color: #111;
+
+    margin-bottom: 20px;
+
+    font-size: 28px;
+
+}
+
+
+/* LIST */
+
+.card ul{
+
+    padding-left: 20px;
+
+}
+
+
+/* LIST */
+
+.card li{
+
+    margin-bottom: 16px;
+
+    line-height: 1.8;
+
+    color: #333;
+
+    font-size: 17px;
+
+}
+
+
+/* GALLERY */
+
+.gallery{
+
+    display: grid;
+
+    grid-template-columns: repeat(4,1fr);
+
+    gap: 25px;
+
+    padding: 0 60px 60px;
+
+}
+
+
+/* BOX */
+
+.gallery-box{
+
+    text-align: center;
+
+}
+
+
+/* IMAGE */
+
+.gallery-box img{
+
+    width: 100%;
+
+    height: 230px;
+
+    object-fit: cover;
+
+    border-radius: 18px;
+
+    transition: 0.4s;
+
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+
+}
+
+
+/* IMAGE HOVER */
+
+.gallery-box img:hover{
+
+    transform: scale(1.04);
+
+}
+
+
+/* TEXT */
+
+.gallery-box p{
+
+    margin-top: 14px;
+
+    color: #111;
+
+    font-size: 20px;
+
+    font-weight: 500;
+
+}
+
+
+/* FOOTER */
+
+footer{
+
+    background-color: #0F2F5F;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 22px;
+
+    font-size: 15px;
+
+}

@@ -1,0 +1,232 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Al Khansaa School</title>
+    <link rel="icon" type="image/png" href="images/logo.png.jpeg">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+        <div class="logo-section">
+
+            <!-- LOGO -->
+            <img src="images/logo.png.jpeg" alt="School logo">
+
+            <h1>Al Khansaa School</h1>
+
+        </div>
+
+        <!-- MENU -->
+
+        <ul class="nav-links">
+
+            <li><a href="index.html" class="active">Home</a></li>
+
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+            <li><a href="login.html">Login</a></li>
+
+        </ul>
+
+    </nav>
+
+
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <!-- SLIDES -->
+
+        <div class="slides">
+
+            <img src="images/photo.png"
+            class="slide active-slide">
+
+            <img src="images/2.png"
+            class="slide">
+
+            <img src="images/4.png"
+            class="slide">
+
+        </div>
+
+
+
+        <!-- OVERLAY -->
+
+        <div class="overlay"></div>
+
+
+
+        <!-- CONTENT -->
+
+        <div class="hero-content">
+
+            <h2>Al Khansaa School</h2>
+
+            <div class="line"></div>
+
+            <p>
+                Building bright futures with knowledge values and creativity
+            </p>
+
+            <a href="login.html" class="hero-btn">
+                Enter School
+            </a>
+
+        </div>
+
+
+
+        <!-- ARROWS -->
+
+        <button class="arrow left"
+        onclick="prevSlide()">
+
+            ❮
+
+        </button>
+
+
+
+        <button class="arrow right"
+        onclick="nextSlide()">
+
+            ❯
+
+        </button>
+
+
+
+        <!-- DOTS -->
+
+        <div class="dots">
+
+            <span class="dot active-dot"></span>
+
+            <span class="dot"></span>
+
+            <span class="dot"></span>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- HIGHLIGHTS -->
+
+    <section class="highlights">
+
+        <div class="card">
+
+            <div class="icon">
+
+                <i class="fa-solid fa-book-open"></i>
+
+            </div>
+
+            <h3>Quality Education</h3>
+
+            <p>
+                We provide high quality education for all students.
+            </p>
+
+        </div>
+
+
+
+        <div class="card">
+
+            <div class="icon">
+
+                <i class="fa-solid fa-users"></i>
+
+            </div>
+
+            <h3>Strong Community</h3>
+
+            <p>
+                Together we build a supportive and respectful community.
+            </p>
+
+        </div>
+
+
+
+        <div class="card">
+
+            <div class="icon">
+
+                <i class="fa-solid fa-trophy"></i>
+
+            </div>
+
+            <h3>Great Facilities</h3>
+
+            <p>
+                Modern labs classrooms and school activities.
+            </p>
+
+        </div>
+
+
+
+        <div class="card">
+
+            <div class="icon">
+
+                <i class="fa-solid fa-star"></i>
+
+            </div>
+
+            <h3>Bright Future</h3>
+
+            <p>
+                Preparing students for a successful tomorrow.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            © 2026 Al Khansaa School. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

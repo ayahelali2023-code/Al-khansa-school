@@ -1,0 +1,579 @@
+/* RESET */
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* BODY */
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+    background-color: #F7F1E7;
+
+}
+
+
+/* NAVBAR */
+
+.navbar{
+
+    height: 105px;
+
+    background-color: #F7F1E7;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 0 70px;
+
+}
+
+
+/* LOGO */
+
+.logo-section{
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+
+}
+
+
+/* LOGO IMAGE */
+
+.logo-section img{
+
+    width: 82px;
+    height: 82px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    border: 3px solid white;
+
+}
+
+
+/* SCHOOL NAME */
+
+.logo-section h1{
+
+    color: #0F2F5F;
+
+    font-size: 34px;
+
+    font-weight: 700;
+
+}
+
+
+/* LINKS */
+
+.nav-links{
+
+    display: flex;
+
+    gap: 38px;
+
+    list-style: none;
+
+}
+
+
+/* LINKS */
+
+.nav-links a{
+
+    text-decoration: none;
+
+    color: #0F2F5F;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+
+}
+
+
+/* HOVER */
+
+.nav-links a:hover{
+
+    color: #C7A86B;
+
+}
+
+
+/* ACTIVE */
+
+.active{
+
+    border-bottom: 2px solid #0F2F5F;
+
+    padding-bottom: 6px;
+
+}
+
+
+/* CONTACT SECTION */
+
+.contact-section{
+
+    width: 75%;
+
+    margin: 50px auto;
+
+    background-color: white;
+
+    padding: 40px;
+
+    border-radius: 22px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+
+}
+
+
+/* TITLE */
+
+.contact-section h2{
+
+    text-align: center;
+
+    color: #0F2F5F;
+
+    font-size: 48px;
+
+}
+
+
+/* LINE */
+
+.line{
+
+    width: 85px;
+    height: 4px;
+
+    background-color: #D4B87A;
+
+    margin: 18px auto 40px;
+
+    border-radius: 20px;
+
+}
+
+
+/* INPUTS */
+
+.top-inputs{
+
+    display: flex;
+
+    gap: 20px;
+
+    margin-bottom: 20px;
+
+}
+
+
+/* INPUT BOX */
+
+.input-box{
+
+    flex: 1;
+
+    display: flex;
+
+    align-items: center;
+
+    border: 2px solid #E5E5E5;
+
+    border-radius: 12px;
+
+    padding: 14px 16px;
+
+    transition: 0.3s;
+
+}
+
+
+/* INPUT BOX HOVER */
+
+.input-box:hover{
+
+    border-color: #0F2F5F;
+
+}
+
+
+/* ICON */
+
+.input-box i{
+
+    color: #888;
+
+    margin-right: 12px;
+
+}
+
+
+/* INPUT */
+
+.input-box input{
+
+    width: 100%;
+
+    border: none;
+
+    outline: none;
+
+    font-size: 16px;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+/* SELECT */
+
+.input-box select{
+
+    width: 100%;
+
+    border: none;
+
+    outline: none;
+
+    background: transparent;
+
+    font-size: 16px;
+
+    font-family: 'Poppins', sans-serif;
+
+    cursor: pointer;
+
+}
+
+
+/* TEXTAREA */
+
+textarea{
+
+    width: 100%;
+
+    height: 170px;
+
+    border: 2px solid #E5E5E5;
+
+    border-radius: 14px;
+
+    padding: 20px;
+
+    resize: none;
+
+    outline: none;
+
+    font-size: 16px;
+
+    font-family: 'Poppins', sans-serif;
+
+    margin-bottom: 25px;
+
+}
+
+
+/* SUGGESTIONS */
+
+.suggestions{
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+
+    margin-bottom: 25px;
+
+}
+
+
+/* BUTTONS */
+
+.suggest-btn{
+
+    background-color: #F7F1E7;
+
+    border: none;
+
+    padding: 10px 16px;
+
+    border-radius: 30px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+    transition: 0.3s;
+
+    color: #0F2F5F;
+
+    font-weight: 500;
+
+}
+
+
+/* HOVER */
+
+.suggest-btn:hover{
+
+    background-color: #0F2F5F;
+
+    color: white;
+
+}
+
+
+/* BUTTON */
+
+.send-btn{
+
+    width: 100%;
+
+    background-color: #0F2F5F;
+
+    color: white;
+
+    border: none;
+
+    padding: 18px;
+
+    border-radius: 12px;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+
+/* BUTTON HOVER */
+
+.send-btn:hover{
+
+    background-color: #C7A86B;
+
+}
+
+
+/* SUCCESS */
+
+.success-message{
+
+    margin-top: 25px;
+
+    text-align: center;
+
+    color: #0F2F5F;
+
+    font-size: 22px;
+
+    font-weight: 600;
+
+    display: none;
+
+    animation: popup 1s ease;
+
+}
+
+
+/* POPUP */
+
+@keyframes popup{
+
+    0%{
+
+        transform: scale(0.5);
+        opacity: 0;
+
+    }
+
+    100%{
+
+        transform: scale(1);
+        opacity: 1;
+
+    }
+
+}
+
+
+/* ERROR */
+
+.error{
+
+    border-color: red !important;
+
+}
+
+
+/* INFO SECTION */
+
+.info-section{
+
+    width: 75%;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+
+    gap: 25px;
+
+    margin-bottom: 60px;
+
+}
+
+
+/* BOX */
+
+.info-box{
+
+    background-color: white;
+
+    border-radius: 18px;
+
+    padding: 28px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+
+    box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+
+    transition: 0.4s;
+
+    animation: floating 3s ease-in-out infinite;
+
+}
+
+
+/* ANIMATION */
+
+.info-box:hover{
+
+    transform: translateY(-10px);
+
+}
+
+
+/* FLOAT */
+
+@keyframes floating{
+
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-8px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+
+}
+
+
+/* ICON CIRCLE */
+
+.circle{
+
+    width: 70px;
+    height: 70px;
+
+    border-radius: 50%;
+
+    background-color: #F7F1E7;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+/* ICON */
+
+.circle i{
+
+    color: #C7A86B;
+
+    font-size: 28px;
+
+}
+
+
+/* TITLE */
+
+.info-box h3{
+
+    color: #0F2F5F;
+
+    margin-bottom: 5px;
+
+    font-size: 24px;
+
+}
+
+
+/* TEXT */
+
+.info-box p{
+
+    color: #444;
+
+    font-size: 17px;
+
+}
+
+
+/* FOOTER */
+
+footer{
+
+    background-color: #0F2F5F;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 22px;
+
+    font-size: 15px;
+
+}
